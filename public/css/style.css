@@ -1,0 +1,300 @@
+/*
+=========== FUNDOS ===========
+Body:             #121212;   // Fundo principal, preto suave
+Main:             #1E1E1E;   // Área de conteúdo principal
+Sidebar:          #181818;   // Barras laterais
+Card:             #242424;   // Cartões, painéis
+Header:           #1A1A1A;   // Cabeçalho fixo
+Footer:           #161616;   // Rodapé
+Input:            #2A2A2A;   // Campos de entrada
+Highlight:        #2E2E2E;   // Destaques de fundo
+Modal:            #202020;   // Modais e sobreposições
+
+=========== BORDAS ===========
+Containers:       #2F2F2F;   // Borda padrão de seções
+Cards:            #3A3A3A;   // Borda de cartões
+Inputs:           #404040;   // Borda de inputs e selects
+Dividers:         #333333;   // Linhas divisórias
+Hover:            #505050;   // Cor ao passar o mouse
+Focus:            #AAAAAA;   // Destaque ao focar (input, botão)
+
+=========== TEXTOS ===========
+Texto Primário:   #E0E0E0;   // Texto principal
+Texto Secundário: #B0B0B0;   // Texto secundário e dicas
+Texto Suave:      #888888;   // Informações desabilitadas ou menos importantes
+Links:            #4A90E2;   // Cor dos links
+Links Hover:      #6BAAFF;   // Cor dos links ao passar o mouse
+Título:           #FFFFFF;   // Títulos, cabeçalhos
+
+=========== BOTÕES ===========
+Botão Primário:   #4A90E2;   // Cor de fundo do botão primário (azul)
+Botão Primário Texto: #FFFFFF; // Cor do texto do botão primário (branco)
+Botão Primário Hover: #6BAAFF; // Cor de fundo ao passar o mouse (azul claro)
+Botão Primário Focus: #AAAAAA; // Cor de borda ao focar (cinza claro)
+
+Botão Secundário: #2A2A2A;   // Cor de fundo do botão secundário (cinza escuro)
+Botão Secundário Texto: #E0E0E0; // Cor do texto do botão secundário (cinza claro)
+Botão Secundário Hover: #2E2E2E; // Cor de fundo ao passar o mouse (cinza médio)
+Botão Secundário Focus: #AAAAAA; // Cor de borda ao focar (cinza claro)
+*/
+
+
+/* GERAL */
+
+* {
+    color: #E0E0E0;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 0.8rem 1.2rem;
+
+    width: 100%;
+    max-width: 100%;
+    height: 10rem;
+    max-height: 10rem;
+
+    background-color: #1A1A1A;
+    border-bottom: 2px solid #333333;
+}
+
+.titulo-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulo-header > span {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.titulo-header > img {
+    width: 7rem;
+
+    border: 2px solid #CED4DA;
+    border-radius: 50%;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+    margin-left: auto;
+}
+
+.navegacao {
+    display: flex;
+    gap: 2rem;
+}
+
+.navegacao > li {
+    list-style: none;
+    font-weight: 600;
+}
+
+.navegacao > li > a {
+    color: #4A90E2;
+    font-size: 1.8rem;
+}
+
+.cadastro {
+    border-radius: 5px;
+    border: 2px solid #AAAAAA;
+
+    padding: 0.6rem 1.6rem;
+
+    background-color: #4A90E2;
+}
+
+.cadastro a {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+/* FOOTER */
+footer {
+    padding: 0.8rem 1.2rem;
+    font-size: 2rem;
+
+    width: 100%;
+    max-width: 100%;
+    height: 10rem;
+    max-height: 10rem;
+
+    background-color: #1A1A1A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+.conteudo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+    flex-grow: 1;
+}
+
+.conteudo > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo > main, aside {
+    margin-top: 1rem;
+}
+
+/* SEÇÕES CIDADES */
+
+.cidades {
+    background-color: #242424;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 60rem;
+    padding: 1rem 0 1rem 0;
+    margin-bottom: 1rem;
+    border: #3A3A3A 0.2rem solid;
+}
+
+.cidades > img {
+    max-width: 60rem;
+    width: 100%;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.cidades > h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.cidades > p {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+aside {
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    background-color: #181818;
+    border: #2F2F2F 0.2rem solid;
+}
+
+aside > span {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #2E2E2E;
+    border: 2px solid #AAAAAA;
+}
+
+.nav-lateral > li {
+    list-style: none;
+
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* PÁGINA CADASTRO */
+.container-form {
+    background-color: #1E1E1E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+}
+
+.container-form > form {
+    background-color: #242424;
+    border: 2px solid #3A3A3A;
+    border-radius: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 25%;
+}
+
+.container-form > form > h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.container-form > form > input {
+    background-color: #2A2A2A;
+    border: 2px solid #404040;
+
+    width: 70%;
+    margin: 0.4rem 0 0.4rem 0;
+    padding: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.container-form > form > button {
+    border-radius: 5px;
+    border: 2px solid #AAAAAA;
+
+    padding: 0.6rem 1.6rem;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 1.4rem;
+
+    background-color: #4A90E2;
+}
+
+.container-form > form > p {
+    font-size: 1.2rem;
+}

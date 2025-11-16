@@ -14,5 +14,97 @@
       "nome": "Usuario Comum",
       "email": "user@abc.com"
     }
+  ],
+  "capitais": [
+    {
+      "id": 1,
+      "nome": "Rio Branco",
+      "estado": "AC",
+      "regiao": "Norte",
+      "populacao": 143000,
+      "descricao": "Capital do Acre e porta de entrada da Amazônia Ocidental",
+      "imagem": "rio-branco.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Manaus",
+      "estado": "AM",
+      "regiao": "Norte",
+      "populacao": 2300000,
+      "descricao": "Capital do Amazonas, conhecida pelo Encontro das Águas",
+      "imagem": "manaus.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Salvador",
+      "estado": "BA",
+      "regiao": "Nordeste",
+      "populacao": 2886698,
+      "descricao": "Primeira capital do Brasil, rica em cultura afro-brasileira",
+      "imagem": "salvador.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Fortaleza",
+      "estado": "CE",
+      "regiao": "Nordeste",
+      "populacao": 2800000,
+      "descricao": "Capital do Ceará, conhecida por praias e vida cultural",
+      "imagem": "fortaleza.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Brasília",
+      "estado": "DF",
+      "regiao": "Centro-Oeste",
+      "populacao": 3100000,
+      "descricao": "Capital federal do Brasil e centro político do país",
+      "imagem": "brasilia.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Goiânia",
+      "estado": "GO",
+      "regiao": "Centro-Oeste",
+      "populacao": 1600000,
+      "descricao": "Capital de Goiás, conhecida por áreas verdes e qualidade de vida",
+      "imagem": "goiania.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Belo Horizonte",
+      "estado": "MG",
+      "regiao": "Sudeste",
+      "populacao": 2600000,
+      "descricao": "Capital mineira conhecida por gastronomia e cultura",
+      "imagem": "belo-horizonte.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Rio de Janeiro",
+      "estado": "RJ",
+      "regiao": "Sudeste",
+      "populacao": 6747815,
+      "descricao": "Famosa pelo Cristo Redentor e praias",
+      "imagem": "rio-de-janeiro.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Florianópolis",
+      "estado": "SC",
+      "regiao": "Sul",
+      "populacao": 600000,
+      "descricao": "Capital catarinense conhecida como Ilha da Magia",
+      "imagem": "florianopolis.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "São Paulo",
+      "estado": "SP",
+      "regiao": "Sudeste",
+      "populacao": 12400000,
+      "descricao": "Maior cidade do Brasil e centro financeiro do país",
+      "imagem": "sao-paulo.jpg"
+    }
   ]
 }
