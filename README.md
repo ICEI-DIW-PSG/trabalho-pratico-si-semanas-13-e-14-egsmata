@@ -9,14 +9,14 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Enrico Guilherme Silva da Mata
+- Matricula: 902513
+- Proposta de projeto escolhida: Lugares e Experiências
+- Breve descrição sobre seu projeto: Blog que mostra capitais do Brasil e pontos turísticos. Dinâmico com dados através de APIs e JSON Server.
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+Nesta etapa foi implementada a apresentação dinâmica dos dados utilizando a biblioteca Chart.js. Criou-se uma nova página dedicada à visualização gráfica, onde os dados cadastrados no CRUD são buscados diretamente do JSON Server. Após a requisição, as capitais são processadas e agrupadas por região (Norte, Nordeste, Centro-Oeste, Sudeste e Sul). Esses valores são então exibidos em um gráfico de barras interativo, que se atualiza automaticamente conforme novos registros são adicionados, editados ou removidos.
 
 ![alt text](image.png)
 
