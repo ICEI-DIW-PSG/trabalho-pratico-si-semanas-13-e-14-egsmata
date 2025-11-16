@@ -1,23 +1,7 @@
 {
-  "usuarios": [
-    {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    }
-  ],
   "capitais": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Rio Branco",
       "estado": "AC",
       "regiao": "Norte",
@@ -26,7 +10,7 @@
       "imagem": "rio-branco.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Manaus",
       "estado": "AM",
       "regiao": "Norte",
@@ -35,7 +19,7 @@
       "imagem": "manaus.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Salvador",
       "estado": "BA",
       "regiao": "Nordeste",
@@ -44,7 +28,7 @@
       "imagem": "salvador.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Fortaleza",
       "estado": "CE",
       "regiao": "Nordeste",
@@ -53,7 +37,7 @@
       "imagem": "fortaleza.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "Brasília",
       "estado": "DF",
       "regiao": "Centro-Oeste",
@@ -62,7 +46,7 @@
       "imagem": "brasilia.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "Goiânia",
       "estado": "GO",
       "regiao": "Centro-Oeste",
@@ -71,7 +55,7 @@
       "imagem": "goiania.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "Belo Horizonte",
       "estado": "MG",
       "regiao": "Sudeste",
@@ -80,7 +64,7 @@
       "imagem": "belo-horizonte.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "nome": "Rio de Janeiro",
       "estado": "RJ",
       "regiao": "Sudeste",
@@ -89,7 +73,7 @@
       "imagem": "rio-de-janeiro.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "nome": "Florianópolis",
       "estado": "SC",
       "regiao": "Sul",
@@ -98,7 +82,7 @@
       "imagem": "florianopolis.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "nome": "São Paulo",
       "estado": "SP",
       "regiao": "Sudeste",
